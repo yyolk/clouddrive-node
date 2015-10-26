@@ -1,6 +1,6 @@
 {
   "name": "clouddrive",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Amazon Cloud Drive CLI and SDK",
   "bin": {
     "clouddrive": "bin/clouddrive.js"
@@ -36,5 +36,8 @@
     "sqlite3": "^3.1.0"
   },
   "main": "index.js",
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2"
+  }
 }
